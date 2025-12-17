@@ -42,9 +42,9 @@ fn calculator(op: &str, x: f64, y: f64) {
         println!("Result {} - {} = {}", x, y, x - y);
     }
     if op == "*" {
-        println!("Result {} + {} = {}", x, y, x * y);
+        println!("Result {} * {} = {}", x, y, x * y);
     }
     if op == "/" {
-        println!("Result {} + {} = {}", x, y, x / y);
+        println!("Result {} / {} = {}", x, y, x / y);
     }
 }
